@@ -1,8 +1,8 @@
 '''
 Aum Sri Sai Ram
-Implementation of ECCT: Ensemble Consensual Collaborative Training for Facial Expression Recognition with Noisy Annotations           
+Implementation of CCT: Consensual Collaborative Training for Facial Expression Recognition with Noisy Annotations           
 Authors: Darshan Gera and Dr. S. Balasubramanian, SSSIHL
-Date: 20-01-2021
+Date: 01-07-2021
 Email: darshangera@sssihl.edu.in
 '''
 
@@ -29,7 +29,7 @@ def kl_loss_compute(pred, soft_targets, reduce=True):
 
 
 #Dynamic balancing of Suprevision Loss and Consistency Loss
-def ECCTloss(y_1, y_2, y_3, t, co_lambda_max = 0.9, beta = 0.65, epoch_num = 1, max_epochs = 40): 
+def CCTloss(y_1, y_2, y_3, t, co_lambda_max = 0.9, beta = 0.65, epoch_num = 1, max_epochs = 40): 
     ''' 
         y_1, y_2, y_3 are predictions of 3 networks and t is target labels. 
     '''
@@ -52,5 +52,3 @@ def ECCTloss(y_1, y_2, y_3, t, co_lambda_max = 0.9, beta = 0.65, epoch_num = 1, 
     loss  =  (consistencyLoss + loss_ce).cpu()
     
     return loss     
-    
-
