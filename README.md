@@ -1,5 +1,5 @@
 # ABAW2021DMACS
-ABAW 2021 Submission 
+Our submission for 2nd Workshop and Competition on Affective Behavior Analysis in-the-wild (ABAW) : 2021
 
 
 <strong>CCT: Consensual Collaborative Training and Knowledge Distillation based Facial Expression
