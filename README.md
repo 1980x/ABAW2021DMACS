@@ -5,7 +5,7 @@ Our submission for 2nd Workshop and Competition on Affective Behavior Analysis i
 <strong>CCT: Consensual Collaborative Training and Knowledge Distillation based Facial Expression
 Recognition under Noisy Annotations</strong>
 
-Arxhiv paper: (https://drive.google.com/file/d/1val_bwM0hW2HKp5bT43LkJlA2O9OehvJ/view?usp=sharing)
+Arxhiv paper: http://arxiv.org/abs/2107.05736
 
 <strong> Our proposed CCT framework<strong>
   
